@@ -25,6 +25,7 @@ public class IndexController {
     @GetMapping("/")  //머스테치 스타더가 view resolver 처리
     public String index(Model model, @LoginUser SessionUser user) {  //Model 서버템플릿 엔진(머스타치)에서 사용할 수 있는 객체 저장
         model.addAttribute("posts", postsService.findAllDesc());
+//        SessionUser user = (SessionUser) httpSession.getAttribute("user"); LoginUser 어노테이션으로 인해 이와같은 반복 패턴을 대체할 수 있다
 
         if(user != null)    //저장된 값이 없다면 화면에 로그인 버튼이 보이게되는 로직
             model.addAttribute("userName", user.getName());
