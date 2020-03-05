@@ -1,0 +1,40 @@
+{{>layout/header}}  <!--현재 머스테치 파일 기준으로 다른파일을 가져온다-->
+
+<h1>게시글 수정</h1>
+
+<!--
+label tag
+  - 속성 : for
+  - for 와 양식의 id 가 같으면 연결된다
+
+readonly
+  - id 와 author 는 읽기만 허용
+-->
+<div class="col-md-12">
+    <div class="col-md-4">
+        <form>
+            <div class="form-group">
+                <label for="id">글번호</label>
+                <input type="text" class="form-control" id="id" value="{{post.id}}" readonly>
+            </div>
+            <div class="form-group">
+                <label for="title">제목</label>
+                <input type="text" class="form-control" id="title" value="{{post.title}}">
+            </div>
+            <div class="form-group">
+                <label for="author"> 작성자 </label>
+                <input type="text" class="form-control" id="author" value="{{post.author}}" readonly>
+            </div>
+            <div class="form-group">
+                <label for="content"> 내용 </label>
+                <textarea class="form-control" id="content">{{post.content}}</textarea>
+                <!--textarea 여러줄의 텍스트 입력하는 창생성-->
+            </div>
+        </form>
+        <a href="/" role="button" class="btn btn-secondary">취소</a>
+        <button type="button" class="btn btn-primary" id="btn-update">수정완료</button>
+        <button type="button" class="btn btn-danger" id="btn-delete">삭제</button>
+    </div>
+</div>
+
+{{>layout/footer}}
