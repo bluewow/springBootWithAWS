@@ -14,7 +14,7 @@ public class Posts extends BaseTimeEntity {
 
     @Id             //해당 테이블의 PK 필드
     @GeneratedValue(strategy = GenerationType.IDENTITY) //PK 의 생성 규칙 (auto_increment 가 된다)
-    private Long id;    //Long 타입의 Auto_increment 추천(bitint). 주민등록번호나 비즈니스상 유니크키는 FK 맺을때 문제가 종종 발생한다
+    private Long id;    //Long 타입의 Auto_increment 추천(bigint). 주민등록번호나 비즈니스상 유니크키는 FK 맺을때 문제가 종종 발생한다
 
     @Column(length = 500, nullable = false) //테이블 컬럼. 선언하지 않더라도 컬럼이 된다. 추가 변경시 사용
     private String title;

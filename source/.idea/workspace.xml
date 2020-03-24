@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a029c91-bb30-4d88-9d1c-f3a0fc52575e" name="Default Changelist" comment="login">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/khkim/book/spring/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khkim/book/spring/web/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/khkim/book/spring/domain/posts/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khkim/book/spring/domain/posts/Posts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,15 +85,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="full.screen.before.presentation.mode" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="JUnit.All in book.test">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.khkim.book.spring.Application" />
       <module name="book.main" />
@@ -124,6 +127,14 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="All in book.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IndexControllerTest.mainPageLoading" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book.test" />
       <extension name="coverage">
@@ -136,21 +147,6 @@
       <option name="MAIN_CLASS_NAME" value="com.khkim.book.spring.web.IndexControllerTest" />
       <option name="METHOD_NAME" value="mainPageLoading" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostsApiControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="book.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.khkim.book.spring.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.khkim.book.spring.web" />
-      <option name="MAIN_CLASS_NAME" value="com.khkim.book.spring.web.PostsApiControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in book.test" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Gradle.project [test]" />
         <item itemvalue="JUnit.IndexControllerTest.mainPageLoading" />
         <item itemvalue="JUnit.PostsRepositoryTest.BaseTimeEntityUpload" />
-        <item itemvalue="JUnit.PostsApiControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -287,6 +283,18 @@
     </state>
     <state x="463" y="44" key="CommitChangelistDialog2/0.0.1920.1040/-1920.6.1920.1040@0.0.1920.1040" timestamp="1583378717137" />
     <state x="463" y="44" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582513125150" />
+    <state x="788" y="457" key="DBNavigator.CreateRenameConsoleDialog" timestamp="1584937111819">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="788" y="457" key="DBNavigator.CreateRenameConsoleDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584937111819" />
+    <state x="0" y="0" width="560" height="319" key="DBNavigator.IdleConnectionDialog" timestamp="1584954907105">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="560" height="319" key="DBNavigator.IdleConnectionDialog/0.0.1920.1040/-1920.6.1920.1040@0.0.1920.1040" timestamp="1584954907105" />
+    <state x="588" y="194" key="DBNavigator.ProjectSettingsDialog" timestamp="1584938691874">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="588" y="194" key="DBNavigator.ProjectSettingsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584938691874" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1583378558354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -295,7 +303,7 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582037501556" />
-    <state width="1272" height="205" key="GridCell.Tab.0.bottom" timestamp="1583377566002">
+    <state width="1506" height="230" key="GridCell.Tab.0.bottom" timestamp="1585010980711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1864" height="289" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1582420973452">
@@ -303,9 +311,9 @@
     </state>
     <state width="1864" height="289" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1920.1040/-1920.6.1920.1040@0.0.1920.1040" timestamp="1582420973452" />
     <state width="1865" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582354915704" />
-    <state width="1272" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.6.1920.1040@0.0.1920.1040" timestamp="1583377566002" />
-    <state width="1865" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582513878448" />
-    <state width="1272" height="205" key="GridCell.Tab.0.center" timestamp="1583377566002">
+    <state width="1506" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.6.1920.1040@0.0.1920.1040" timestamp="1585010980711" />
+    <state width="1865" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583551390546" />
+    <state width="1506" height="230" key="GridCell.Tab.0.center" timestamp="1585010980711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1864" height="289" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1582420973451">
@@ -313,9 +321,9 @@
     </state>
     <state width="1864" height="289" key="GridCell.Tab.0.center.inPresentationMode/0.0.1920.1040/-1920.6.1920.1040@0.0.1920.1040" timestamp="1582420973451" />
     <state width="1865" height="289" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582354915704" />
-    <state width="1272" height="205" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.6.1920.1040@0.0.1920.1040" timestamp="1583377566002" />
-    <state width="1865" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582513878448" />
-    <state width="1272" height="205" key="GridCell.Tab.0.left" timestamp="1583377566002">
+    <state width="1506" height="230" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.6.1920.1040@0.0.1920.1040" timestamp="1585010980711" />
+    <state width="1865" height="258" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583551390546" />
+    <state width="1506" height="230" key="GridCell.Tab.0.left" timestamp="1585010980710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1864" height="289" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1582420973449">
@@ -323,9 +331,9 @@
     </state>
     <state width="1864" height="289" key="GridCell.Tab.0.left.inPresentationMode/0.0.1920.1040/-1920.6.1920.1040@0.0.1920.1040" timestamp="1582420973449" />
     <state width="1865" height="289" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582354915704" />
-    <state width="1272" height="205" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.6.1920.1040@0.0.1920.1040" timestamp="1583377566002" />
-    <state width="1865" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582513878448" />
-    <state width="1272" height="205" key="GridCell.Tab.0.right" timestamp="1583377566002">
+    <state width="1506" height="230" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.6.1920.1040@0.0.1920.1040" timestamp="1585010980710" />
+    <state width="1865" height="258" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583551390546" />
+    <state width="1506" height="230" key="GridCell.Tab.0.right" timestamp="1585010980711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1864" height="289" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1582420973452">
@@ -333,8 +341,8 @@
     </state>
     <state width="1864" height="289" key="GridCell.Tab.0.right.inPresentationMode/0.0.1920.1040/-1920.6.1920.1040@0.0.1920.1040" timestamp="1582420973452" />
     <state width="1865" height="289" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582354915704" />
-    <state width="1272" height="205" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.6.1920.1040@0.0.1920.1040" timestamp="1583377566002" />
-    <state width="1865" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582513878448" />
+    <state width="1506" height="230" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.6.1920.1040@0.0.1920.1040" timestamp="1585010980711" />
+    <state width="1865" height="258" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583551390546" />
     <state x="861" y="158" key="Registry" timestamp="1582512589988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -344,23 +352,23 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="591" y="164" key="RollbackChangesDialog/0.0.1920.1040/-1920.6.1920.1040@0.0.1920.1040" timestamp="1583377037345" />
-    <state x="352" y="77" key="SettingsEditor" timestamp="1583376672704">
+    <state x="352" y="77" key="SettingsEditor" timestamp="1584936747880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="352" y="77" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582280767749" />
     <state x="-1568" y="83" key="SettingsEditor/0.0.1920.1040/-1920.6.1920.1040@-1920.6.1920.1040" timestamp="1582433797086" />
     <state x="352" y="77" key="SettingsEditor/0.0.1920.1040/-1920.6.1920.1040@0.0.1920.1040" timestamp="1583376672704" />
-    <state x="352" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582512557050" />
+    <state x="352" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584936747880" />
     <state x="829" y="420" key="VCS.EditChangelistDialog" timestamp="1582444552285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="829" y="420" key="VCS.EditChangelistDialog/0.0.1920.1040/-1920.6.1920.1040@0.0.1920.1040" timestamp="1582444552285" />
-    <state x="588" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1583315938610">
+    <state x="588" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1585010155380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="588" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582349269548" />
-    <state x="588" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.6.1920.1040@0.0.1920.1040" timestamp="1583315938610" />
-    <state x="588" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582514525403" />
+    <state x="588" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.6.1920.1040@0.0.1920.1040" timestamp="1585010155380" />
+    <state x="588" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584936772004" />
     <state x="694" y="151" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582785183402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -377,12 +385,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="563" y="132" width="840" height="1034" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582039738850" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1583308402236">
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1584936780090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582349232960" />
     <state x="-1381" y="11" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/-1920.6.1920.1040@-1920.6.1920.1040" timestamp="1582433715234" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/-1920.6.1920.1040@0.0.1920.1040" timestamp="1583308402236" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582514958274" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584936780090" />
   </component>
 </project>
