@@ -33,6 +33,7 @@ dependencies {
     compile('com.h2database:h2')
     compile('org.springframework.boot:spring-boot-starter-oauth2-client')
     compile('org.springframework.session:spring-session-jdbc')
+    compile('org.mariadb.jdbc:mariadb-java-client')
 
     testCompile('org.projectlombok:lombok')             //p74 error 로 추가
     annotationProcessor('org.projectlombok:lombok')     //p74error 로 추가
